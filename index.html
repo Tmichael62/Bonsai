@@ -16,7 +16,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,39 +32,115 @@
 
 
   <body>
-    <div class="navbar-wrapper">
-     <div class="container-fluid">
-       <img src="img/payments-banner-graphic.png" class="img-responsive" id="nav_bg" alt="">
-
-       <nav class="navbar  navbar-static-top">
-         <div class="container-fluid">
-           <div class="navbar-header">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-             </button>
-             <a class="navbar-brand" href="#">
-               <img src="img/logo-icon-white.png" height="30" class="d-inline-block align-top" alt="">
-               Bootstrap
-              </a>
-           </div>
-           <div id="navbar" class="navbar-collapse collapse navbar-right">
-             <ul class="nav navbar-nav dropdown-primary">
-               <li class="active"><a href="#">Sign in</a></li>
-               <li><a href="#about">Sign up</a></li>
-             </ul>
-           </div>
-         </div>
-       </nav>
+    <!-- navbar -->
+   <nav class="navbar">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="#">
+         <div id="nav_logo">
+            <img src="img/logo-icon-white.png" alt="logo bonsai" id="nav_icon">
+            <div id="nav_title">Bootstrap</div>
+        </div>
+      </a>
+    </div>
+     <div id="navbar" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="#" class="nav_text">Sign in</a></li>
+         <li><a href="#about" class="nav_text">Sign up</a></li>
+       </ul>
      </div>
-   </div>
+     <div class="container text-center pad">
+     <h1 class="nav_ext">Simple & Beautiful Payements for Freelancer</h1>
+     <p class="nav_ext taille">Get paid on time, every time.</p>
+     <a class="btn btn-default" id="but" type="button" value="Input"> CREATE A FREE ACCOUNT</a>
+   </nav>
  </div>
- <div class="text-center navbar-static-top">
- <h1>Simple & Beautiful Payments for Freelancer</h1>
- <p>Get paid on time, every time</p>
+<!--/navbar-->
+<!--block img svg-->
+<div class="text-center container-fluid ecart">
+ <div class="col-md-4 down">
+   <img class="hauteur" src="assets/payments-calendar-icon.svg" alt="calendar">
+   <h4 class="down">Quick</h4>
+   <p class="text-muted">to create, send, and pay invoices</p>
  </div>
+ <div class="col-md-4 block">
+   <img class="hauteur" src="assets/payments-mail-icon.svg" alt="calendar">
+   <h4 class="down">Beautiful</h4>
+   <p class="text-muted">Process for the freelancer and client</p>
+ </div>
+ <div class="col-md-4 block">
+   <img class="hauteur" src="assets/payments-methods-icon.svg" alt="calendar">
+   <h4 class="down">Secure</h4>
+   <p class="text-muted">payments and quick disbursement</p>
+ </div>
+</div>
+<!--/Fin block img svg-->
+<!---Début du block dollars---->
+<div class="text-center back">
+    <h4 class="text-muted tit">SIMPLE PRICING:<br/>PAY WHEN YOU GET PAID</h4>
+    <div class="section2">
+    <p class="arg">$1<p>
+      <div class="soustxt">
+    <h2>PER PAID INVOICE</h2>
+    <p>+2.9% & 30&#162; transaction fee</p>
+  </div>
+</div>
+</div>
+<!---/Fin block Dollars---->
+<!---Début du block credit accept----->
+<div class="bandeau text-center">
+<p class="bandeau_text">Credit cards supported now. ACH coming soon !</p>
+</div>
+<!---/Fin du block credit accept---->
+<!-- START THE FEATURETTES -->
+<div class="row featurette">
+  <div class="col-md-6">
+    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+  <div class="col-md-6">
+    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+  </div>
+</div>
+
+
+<div class="row featurette">
+  <div class="col-md-6">
+    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+  <div class="col-md-6">
+    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+  </div>
+</div>
+
+
+<div class="row featurette">
+  <div class="col-md-6">
+    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  </div>
+  <div class="col-md-6">
+    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+
+
+
+
+
+
+
+
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -73,6 +149,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
